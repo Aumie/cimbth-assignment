@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CIMB-Peerapat_Channak:jar">
+    <output-path>$PROJECT_DIR$/out/</output-path>
+    <root id="archive" name="CIMB-Peerapat_Channak.jar">
+      <element id="module-output" name="CIMB" />
+    </root>
+  </artifact>
+</component>

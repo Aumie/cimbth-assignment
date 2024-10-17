@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CIMB-Peerapat_Channak:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="13aa2eb9-d59f-463d-8297-8acdac7156a0" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2nZ4Kx8XZJZReONRLDJXmnLeWWp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.th.cimb.Main.executor": "Run",
+    "JUnit.Question1Test,case1 and 1 more.executor": "Coverage",
+    "JUnit.Question1Test.case1.executor": "Run",
+    "JUnit.Question1Test.case2.executor": "Run",
+    "JUnit.Question1Test.executor": "Run",
+    "JUnit.Question2Test.case1.executor": "Run",
+    "JUnit.Question2Test.case3.executor": "Run",
+    "JUnit.Question2Test.executor": "Run",
+    "JUnit.Question3Test.executor": "Coverage",
+    "Maven.CIMB [clean,install].executor": "Run",
+    "Maven.CIMB [clean].executor": "Run",
+    "Maven.CIMB [deploy].executor": "Run",
+    "Maven.CIMB [install].executor": "Run",
+    "Maven.CIMB [test].executor": "Run",
+    "Maven.CIMB-Peerapat_Channak [clean,install].executor": "Run",
+    "Maven.CIMB-Peerapat_Channak [clean].executor": "Run",
+    "Maven.CIMB-Peerapat_Channak [install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Aum_l/Desktop/CIMB/src/main/resources",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.25977013",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="th.cimb" />
+      <recent name="th.cimb.main" />
+      <recent name="" />
+      <recent name="th.cimb.question" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="th.cimb.question" />
+      <recent name="th.cimb.question.impl" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="th.cimb.question.impl" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.th.cimb.Main">
+    <configuration name="th.cimb.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="th.cimb.Main" />
+      <module name="CIMB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="th.cimb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question1Test.case1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CIMB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="th.cimb.question.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="th.cimb.question" />
+      <option name="MAIN_CLASS_NAME" value="th.cimb.question.Question1Test" />
+      <option name="METHOD_NAME" value="case1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question1Test.case2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CIMB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="th.cimb.question.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="th.cimb.question" />
+      <option name="MAIN_CLASS_NAME" value="th.cimb.question.Question1Test" />
+      <option name="METHOD_NAME" value="case2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CIMB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="th.cimb.question.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="th.cimb.question" />
+      <option name="MAIN_CLASS_NAME" value="th.cimb.question.Question2Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Question2Test" />
+        <item itemvalue="JUnit.Question1Test.case2" />
+        <item itemvalue="JUnit.Question1Test.case1" />
+        <item itemvalue="Application.th.cimb.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13aa2eb9-d59f-463d-8297-8acdac7156a0" name="Changes" comment="" />
+      <created>1729167205330</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729167205330</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CIMB$Question1Test.ic" NAME="Question1Test Coverage Results" MODIFIED="1729170419155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>th.cimb.question.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/CIMB$Question3Test.ic" NAME="Question3Test Coverage Results" MODIFIED="1729170758996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>th.cimb.question.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/CIMB$Question2Test.ic" NAME="Question2Test Coverage Results" MODIFIED="1729170768290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>th.cimb.question.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/CIMB$Question1Test_case1_and_1_more.ic" NAME="Question1Test,case1 and 1 more Coverage Results" MODIFIED="1729170777672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+  </component>
+</project>
