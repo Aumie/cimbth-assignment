@@ -3,8 +3,7 @@ package th.cimb.question;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
+import th.cimb.question.impl.Question3;
 
 class Question3Test {
 

@@ -9,7 +9,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13aa2eb9-d59f-463d-8297-8acdac7156a0" name="Changes" comment="" />
+    <list default="true" id="13aa2eb9-d59f-463d-8297-8acdac7156a0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/th/cimb/question/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/th/cimb/question/impl/Question1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/th/cimb/util/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/CIMB-Peerapat_Channak.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/CIMB-Peerapat_Channak.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/th/cimb/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/th/cimb/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/th/cimb/question/Question1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/th/cimb/question/Question2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/th/cimb/question/impl/Question2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/th/cimb/question/Question3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/th/cimb/question/impl/Question3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/th/cimb/question/Question1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/th/cimb/question/Question1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/th/cimb/question/Question2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/th/cimb/question/Question2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/th/cimb/question/Question3Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/th/cimb/question/Question3Test.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -42,48 +55,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.th.cimb.Main.executor": "Run",
-    "JUnit.Question1Test,case1 and 1 more.executor": "Coverage",
-    "JUnit.Question1Test.case1.executor": "Run",
-    "JUnit.Question1Test.case2.executor": "Run",
-    "JUnit.Question1Test.executor": "Run",
-    "JUnit.Question2Test.case1.executor": "Run",
-    "JUnit.Question2Test.case3.executor": "Run",
-    "JUnit.Question2Test.executor": "Run",
-    "JUnit.Question3Test.executor": "Coverage",
-    "Maven.CIMB [clean,install].executor": "Run",
-    "Maven.CIMB [clean].executor": "Run",
-    "Maven.CIMB [deploy].executor": "Run",
-    "Maven.CIMB [install].executor": "Run",
-    "Maven.CIMB [test].executor": "Run",
-    "Maven.CIMB-Peerapat_Channak [clean,install].executor": "Run",
-    "Maven.CIMB-Peerapat_Channak [clean].executor": "Run",
-    "Maven.CIMB-Peerapat_Channak [install].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Aum_l/Desktop/CIMB/src/main/resources",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.25977013",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.th.cimb.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Question1Test,case1 and 1 more.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.Question1Test.case1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Question1Test.case2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Question1Test.case3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Question1Test.case4.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Question1Test.case5.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Question1Test.caseMaxSize100001.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Question1Test.caseMaxValue100000.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Question1Test.caseMaxValue100001.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Question1Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Question2Test.case1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Question2Test.case3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Question2Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Question3Test.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.CIMB [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.CIMB [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.CIMB [deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.CIMB [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.CIMB [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.CIMB-Peerapat_Channak [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.CIMB-Peerapat_Channak [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.CIMB-Peerapat_Channak [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Aum_l/Desktop/CIMB/src/main/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.25977013&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="th.cimb.question" />
       <recent name="th.cimb" />
       <recent name="th.cimb.main" />
       <recent name="" />
-      <recent name="th.cimb.question" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="th.cimb.question" />
@@ -99,8 +118,8 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.th.cimb.Main">
-    <configuration name="th.cimb.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Question1Test">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="th.cimb.Main" />
       <module name="CIMB" />
       <extension name="coverage">
@@ -113,7 +132,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question1Test.case1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Question1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CIMB" />
       <extension name="coverage">
         <pattern>
@@ -123,49 +142,66 @@
       </extension>
       <option name="PACKAGE_NAME" value="th.cimb.question" />
       <option name="MAIN_CLASS_NAME" value="th.cimb.question.Question1Test" />
-      <option name="METHOD_NAME" value="case1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Question1Test.case2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CIMB" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="th.cimb.question.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="th.cimb.question" />
-      <option name="MAIN_CLASS_NAME" value="th.cimb.question.Question1Test" />
-      <option name="METHOD_NAME" value="case2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Question2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CIMB" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="th.cimb.question.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="th.cimb.question" />
-      <option name="MAIN_CLASS_NAME" value="th.cimb.question.Question2Test" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question1Test.caseMaxSize100001" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CIMB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="th.cimb.question.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="th.cimb.question" />
+      <option name="MAIN_CLASS_NAME" value="th.cimb.question.Question1Test" />
+      <option name="METHOD_NAME" value="caseMaxSize100001" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question1Test.caseMaxValue10000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CIMB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="th.cimb.question.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="th.cimb.question" />
+      <option name="MAIN_CLASS_NAME" value="th.cimb.question.Question1Test" />
+      <option name="METHOD_NAME" value="caseMaxValue10000" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question1Test.caseMaxValue100001" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CIMB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="th.cimb.question.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="th.cimb.question" />
+      <option name="MAIN_CLASS_NAME" value="th.cimb.question.Question1Test" />
+      <option name="METHOD_NAME" value="caseMaxValue100001" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Question2Test" />
-        <item itemvalue="JUnit.Question1Test.case2" />
-        <item itemvalue="JUnit.Question1Test.case1" />
-        <item itemvalue="Application.th.cimb.Main" />
+        <item itemvalue="JUnit.Question1Test" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.Question1Test.caseMaxValue100001" />
+        <item itemvalue="JUnit.Question1Test.caseMaxSize100001" />
+        <item itemvalue="JUnit.Question1Test.caseMaxValue100000" />
       </list>
     </recent_temporary>
   </component>
