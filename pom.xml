@@ -52,7 +52,7 @@
                         </manifest>
                     </archive>
                     <includes>
-                        <include>**/th/cimb/*</include>
+                        <include>**/th/cimb/**</include>
                     </includes>
                 </configuration>
             </plugin>

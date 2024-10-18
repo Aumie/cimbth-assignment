@@ -10,9 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13aa2eb9-d59f-463d-8297-8acdac7156a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/example.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/CIMB_Peerapat_Channak_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/CIMB_Peerapat_Channak_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/CIMB-Peerapat_Channak.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/CIMB-Peerapat_Channak.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +89,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Aum_l/Desktop/CIMB",
+    "last_opened_file_path": "C:/Users/Aum_l/Desktop/CIMB/out",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.25977013",
@@ -97,8 +97,14 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Aum_l\Desktop\CIMB\out" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Aum_l\Desktop\CIMB" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="th.cimb.question" />
