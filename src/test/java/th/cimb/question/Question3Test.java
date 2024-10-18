@@ -16,11 +16,31 @@ class Question3Test {
 
     @Test
     void case1() {
-        Assertions.assertEquals(2, q.answer(2));
+        q.setCaze(2);
+        Assertions.assertEquals(2, q.answer());
     }
 
     @Test
     void case2() {
-        Assertions.assertEquals(3, q.answer(3));
+        q.setCaze(3);
+        Assertions.assertEquals(3, q.answer());
+    }
+
+    @Test
+    void case3() {
+        q.setCaze(4);
+        Assertions.assertEquals(5, q.answer());
+    }
+
+    @Test
+    void caseZero() {
+        q.setCaze(0);
+        Assertions.assertEquals(0, q.answer());
+    }
+
+    @Test
+    void caseNegative() {
+        q.setCaze(-1);
+        Assertions.assertEquals(0, q.answer());
     }
 }

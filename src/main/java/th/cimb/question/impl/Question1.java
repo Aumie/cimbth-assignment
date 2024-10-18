@@ -107,10 +107,12 @@ public class Question1 implements Question {
 
     @Override
     public String inputGuideline() {
-        return "Input Pattern: 1,2,3,4,5...\n" +
-                "Constraints: \n" +
-                "=> - 1 <= input.length <= 10^5\n" +
-                "=> - 0 <= input[i] <= 10^4";
+        return """
+                ========== Q1 ==========
+                Input Pattern: 1,2,3,4,5...
+                Constraints:\s
+                => - 1 <= input.length <= 10^5
+                => - 0 <= input[i] <= 10^4""";
     }
 
     @Override
