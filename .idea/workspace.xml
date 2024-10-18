@@ -12,9 +12,8 @@
     <list default="true" id="13aa2eb9-d59f-463d-8297-8acdac7156a0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/th/cimb/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/th/cimb/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/th/cimb/question/impl/Question1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/th/cimb/question/impl/Question1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/th/cimb/question/impl/Question3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/th/cimb/question/impl/Question3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/th/cimb/question/Question3Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/th/cimb/question/Question3Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/th/cimb/question/impl/Question2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/th/cimb/question/impl/Question2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/th/cimb/question/Question2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/th/cimb/question/Question2Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +63,12 @@
     "JUnit.Question1Test.caseMaxValue100001.executor": "Run",
     "JUnit.Question1Test.executor": "Run",
     "JUnit.Question2Test.case1.executor": "Run",
+    "JUnit.Question2Test.case1Input.executor": "Run",
     "JUnit.Question2Test.case3.executor": "Run",
+    "JUnit.Question2Test.case4.executor": "Run",
+    "JUnit.Question2Test.case5.executor": "Run",
+    "JUnit.Question2Test.case6.executor": "Run",
+    "JUnit.Question2Test.caseTooLarge.executor": "Run",
     "JUnit.Question2Test.executor": "Run",
     "JUnit.Question3Test.case2.executor": "Run",
     "JUnit.Question3Test.case3.executor": "Run",
@@ -84,8 +88,9 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Aum_l/Desktop/CIMB/src/main/resources",
+    "last_opened_file_path": "C:/Users/Aum_l/Desktop/CIMB",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.25977013",
@@ -116,21 +121,8 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="th.cimb.Main" />
-      <module name="CIMB" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="th.cimb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Question3Test.case2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Question2Test.case1Input">
+    <configuration name="Question2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CIMB" />
       <extension name="coverage">
         <pattern>
@@ -139,14 +131,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="th.cimb.question" />
-      <option name="MAIN_CLASS_NAME" value="th.cimb.question.Question3Test" />
-      <option name="METHOD_NAME" value="case2" />
+      <option name="MAIN_CLASS_NAME" value="th.cimb.question.Question2Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Question2Test.case1Input" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CIMB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="th.cimb.question.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="th.cimb.question" />
+      <option name="MAIN_CLASS_NAME" value="th.cimb.question.Question2Test" />
+      <option name="METHOD_NAME" value="case1Input" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question3Test.case3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Question2Test.case5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CIMB" />
       <extension name="coverage">
         <pattern>
@@ -155,14 +162,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="th.cimb.question" />
-      <option name="MAIN_CLASS_NAME" value="th.cimb.question.Question3Test" />
-      <option name="METHOD_NAME" value="case3" />
+      <option name="MAIN_CLASS_NAME" value="th.cimb.question.Question2Test" />
+      <option name="METHOD_NAME" value="case5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question3Test.caseNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Question2Test.case6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CIMB" />
       <extension name="coverage">
         <pattern>
@@ -171,14 +178,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="th.cimb.question" />
-      <option name="MAIN_CLASS_NAME" value="th.cimb.question.Question3Test" />
-      <option name="METHOD_NAME" value="caseNegative" />
+      <option name="MAIN_CLASS_NAME" value="th.cimb.question.Question2Test" />
+      <option name="METHOD_NAME" value="case6" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question3Test.caseZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Question2Test.caseTooLarge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CIMB" />
       <extension name="coverage">
         <pattern>
@@ -187,8 +194,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="th.cimb.question" />
-      <option name="MAIN_CLASS_NAME" value="th.cimb.question.Question3Test" />
-      <option name="METHOD_NAME" value="caseZero" />
+      <option name="MAIN_CLASS_NAME" value="th.cimb.question.Question2Test" />
+      <option name="METHOD_NAME" value="caseTooLarge" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -196,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.Question3Test.caseZero" />
-        <item itemvalue="JUnit.Question3Test.caseNegative" />
-        <item itemvalue="JUnit.Question3Test.case2" />
-        <item itemvalue="JUnit.Question3Test.case3" />
+        <item itemvalue="JUnit.Question2Test.case1Input" />
+        <item itemvalue="JUnit.Question2Test.caseTooLarge" />
+        <item itemvalue="JUnit.Question2Test.case6" />
+        <item itemvalue="JUnit.Question2Test" />
+        <item itemvalue="JUnit.Question2Test.case5" />
       </list>
     </recent_temporary>
   </component>

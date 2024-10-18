@@ -2,6 +2,7 @@ package th.cimb;
 
 import th.cimb.question.Question;
 import th.cimb.question.impl.Question1;
+import th.cimb.question.impl.Question2;
 import th.cimb.question.impl.Question3;
 
 import java.util.ArrayList;
@@ -16,6 +17,7 @@ public class Main {
 
         List<Question> questions = new ArrayList<>();
         questions.add(new Question1());
+        questions.add(new Question2());
         questions.add(new Question3());
         questions.forEach(q->q.setPrintLog(true));
 
